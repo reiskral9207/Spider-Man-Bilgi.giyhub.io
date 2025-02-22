@@ -1,3 +1,4 @@
+/* Body kısmı için mevcut arka plan ve stil */
 body {
     margin: 0;
     padding: 0;
@@ -9,21 +10,49 @@ body {
     background-repeat: no-repeat; /* Görselin tekrar etmesini engelle */
 }
 
-.spiderman-info {
-    color: #f1c40f; /* Sarı renk */
-    padding: 20px;
-    border-radius: 8px; /* Yuvarlak köşeler */
-    margin: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Yarı saydam siyah arka plan */
+/* h1 başlığı için belirlediğin stiller */
+h1 {
+    padding: 10px 15px 15px;
+    margin: 5px 0 20px 10px;
+    font-size: 90px; /* Başlık boyutunu büyüttüm */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Yazıya gölge ekle */
 }
 
-.spiderman-info h2 {
-    font-size: 1.8rem; /* Başlık boyutu */
-    text-align: center; /* Ortalanmış başlık */
+.spiderman-title {
+    color: #FFF;
+    font-size: 90px;
+    text-align: center;
+    padding: 10px 15px 15px;
+    margin: 5px 0 20px 10px;
 }
 
-.spiderman-info p {
-    font-size: 1rem; /* Paragraf yazı boyutu */
-    line-height: 1.6; /* Satır aralığı */
-    text-align: justify; /* Yazıyı iki yana yasla */
+
+/* Paragraf p için belirlediğin stiller */
+p {
+    padding: 10px 15px;
+    margin: 3% 45% 0 3%;
+    background-color: #fefefe;
+    color: #111111;
+    font-size: 22px; /* Burada yazı boyutunu büyüttüm */
+}
+
+
+/* Metin rengini değiştiren buton için stil */
+.color-button {
+    font-size: 20px; /* Buton boyutunu büyütüyorum */
+    padding: 12px 20px; /* Buton içindeki yazıyı daha geniş tutmak için padding */
+    background-color: #007BFF; /* Butonun arka plan rengi mavi */
+    color: #fff; /* Buton yazı rengi beyaz */
+    border: none; /* Kenarlık kaldırıldı */
+    border-radius: 5px; /* Butonun köşelerini yuvarlak yap */
+    cursor: pointer; /* Fareyi üzerine getirdiğinde işaretçi simgesi */
+    position: absolute; /* Konumu sabit */
+    right: 10px; /* Butonu sağa hizala */
+    bottom: 10%; /* Butonu sayfanın orta alt kısmına yerleştir */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Butona gölge ekledim */
+}
+
+/* Butona hover efekti (fare üzerine gelince) */
+.color-button:hover {
+    background-color: #0056b3; /* Buton rengini koyu mavi yap */
 }
