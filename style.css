@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/Spider-Man.jpg'); /* Arka plan olarak Spider-Man görselini ekle */
+    background-size: 100% 100%; /* Görselin sayfayı tam kaplamasını sağlar */
+    background-position: center; /* Görseli merkezde tut */
+    min-height: 100vh; /* Sayfanın tamamını kapsasın */
+    background-repeat: no-repeat; /* Görselin tekrar etmesini engelle */
+}
+
+.spiderman-info {
+    color: #f1c40f; /* Sarı renk */
+    padding: 20px;
+    border-radius: 8px; /* Yuvarlak köşeler */
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Yarı saydam siyah arka plan */
+}
+
+.spiderman-info h2 {
+    font-size: 1.8rem; /* Başlık boyutu */
+    text-align: center; /* Ortalanmış başlık */
+}
+
+.spiderman-info p {
+    font-size: 1rem; /* Paragraf yazı boyutu */
+    line-height: 1.6; /* Satır aralığı */
+    text-align: justify; /* Yazıyı iki yana yasla */
+}
